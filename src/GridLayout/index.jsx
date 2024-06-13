@@ -19,9 +19,9 @@ const GridTest = () => {
             layout={layout}
             cols={3}
             maxRows={4}
-            rowHeight={100}
-            width={600}
-            isResizable={false}
+            rowHeight={200}
+            width={1200}
+            isResizable={true}
             onDragStop={(layout) => console.log(layout)}
         >
             {layout.map((item) => (
